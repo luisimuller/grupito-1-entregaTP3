@@ -1,0 +1,71 @@
+.carrusel-page {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.carrusel-titulo {
+  color: var(--color1);
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.carrusel-container {
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carrusel-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  pointer-events: none; /* ✅ evita que bloquee clics */
+}
+
+.carrusel-info {
+  background-color: var(--color5);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 10; /* ✅ asegura que quede sobre Swiper */
+}
+
+.proyecto-link {
+  text-decoration: none;
+  color: var(--color3);
+  display: inline-block;
+  position: relative;
+  z-index: 11; /* ✅ asegura que reciba el click */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.proyecto-link:hover h3 {
+  color: var(--color1);
+}
+
+.carrusel-info h3 {
+  margin-bottom: 10px;
+}
+
+.carrusel-info p {
+  color: var(--color3);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* 🔹 Evita que los puntitos se encimen */
+.swiper-pagination {
+  position: relative;
+  margin-top: 15px;
+  z-index: 1;
+}
+
+/* 🔹 Asegura que el slide no tape el enlace */
+.swiper-slide {
+  position: relative;
+  overflow: visible !important;
+}

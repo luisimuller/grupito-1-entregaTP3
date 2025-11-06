@@ -1,0 +1,25 @@
+/* Galería */
+.galeria-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}

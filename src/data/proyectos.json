@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "integranteId": 1,
+    "nombre": "Erwin Schrödinger",
+    "proyectos": [
+      {
+        "id": 101,
+        "titulo": "App Física",
+        "descripcion": "Simulador de ondas",
+        "imagen": "https://picsum.photos/id/1015/800/400"
+      },
+      {
+        "id": 102,
+        "titulo": "Web Quantum",
+        "descripcion": "Blog de física",
+        "imagen": "https://picsum.photos/id/1016/800/400"
+      },
+      {
+        "id": 103,
+        "titulo": "Portfolio",
+        "descripcion": "Muestra de proyectos",
+        "imagen": "https://picsum.photos/id/1018/800/400"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "integranteId": 2,
+    "nombre": "Carlos HardDrive",
+    "proyectos": [
+      {
+        "id": 201,
+        "titulo": "App Redes",
+        "descripcion": "Control de routers",
+        "imagen": "https://picsum.photos/id/1025/800/400"
+      },
+      {
+        "id": 202,
+        "titulo": "Sistema Seguridad",
+        "descripcion": "Monitoreo de antivirus",
+        "imagen": "https://picsum.photos/id/1026/800/400"
+      },
+      {
+        "id": 203,
+        "titulo": "Portfolio",
+        "descripcion": "Proyectos de seguridad",
+        "imagen": "https://picsum.photos/id/1028/800/400"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "integranteId": 3,
+    "nombre": "Gregory Karta",
+    "proyectos": [
+      {
+        "id": 301,
+        "titulo": "App Web",
+        "descripcion": "Página de aprendizaje",
+        "imagen": "https://picsum.photos/id/1035/800/400"
+      },
+      {
+        "id": 302,
+        "titulo": "Blog Ciencia",
+        "descripcion": "Artículos y noticias",
+        "imagen": "https://picsum.photos/id/1036/800/400"
+      },
+      {
+        "id": 303,
+        "titulo": "Portfolio",
+        "descripcion": "Proyectos personales",
+        "imagen": "https://picsum.photos/id/1038/800/400"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "integranteId": 4,
+    "nombre": "Jack Smith",
+    "proyectos": [
+      {
+        "id": 401,
+        "titulo": "App Rock",
+        "descripcion": "Gestión de bandas",
+        "imagen": "https://picsum.photos/id/1045/800/400"
+      },
+      {
+        "id": 402,
+        "titulo": "Web Música",
+        "descripcion": "Blog de conciertos",
+        "imagen": "https://picsum.photos/id/1046/800/400"
+      },
+      {
+        "id": 403,
+        "titulo": "Portfolio",
+        "descripcion": "Proyectos musicales",
+        "imagen": "https://picsum.photos/id/1048/800/400"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "integranteId": 5,
+    "nombre": "Lola Sparrow",
+    "proyectos": [
+      {
+        "id": 501,
+        "titulo": "Página web",
+        "descripcion": "Pagina realizada como proyecto final de curso de desarrollo web fullstack",
+        "imagen": "/assets/img/Trabajo1_Lola.jpeg",
+        "repo":"https://github.com/luisimuller/ProyectoIntegrador"
+      },
+      {
+        "id": 502,
+        "titulo": "Web Cocina",
+        "descripcion": "Pagina web para restaurante italiano",
+        "imagen": "/assets/img/Trabajo2_Lola.jpeg",
+        "repo": "https://github.com/luisimuller/PaginaWebRestaurante"
+      },
+      {
+        "id": 503,
+        "titulo": "App mobile",
+        "descripcion": "App mobile desarrollada para club deportivo",
+        "imagen": "/assets/img/Trabajo3_Lola.jpeg",
+        "repo": "https://github.com/nicochiove/dispoMoviles"
+      }
+    ]
+  }
+]
