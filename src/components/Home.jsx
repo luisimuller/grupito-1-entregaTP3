@@ -5,6 +5,7 @@ import MemberCard from "./MemberCard";
 import { INTEGRANTES } from "./Constantes";
 import PROYECTOS from "../data/proyectos.json";
 import ProyectosCarrusel from "./ProyectosCarrusel";
+import Buscador from "./Buscador";
 
 function Home() {
   return (
@@ -66,6 +67,9 @@ function Home() {
             })}
           </div>
         </section>
+
+        {/*Buscador*/}
+            <Buscador/>
 
         {/* Contacto */}
         <section id="contacto" className="contacto">
