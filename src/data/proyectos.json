@@ -81,21 +81,24 @@
     "proyectos": [
       {
         "id": 401,
-        "titulo": "App Rock",
-        "descripcion": "Gestión de bandas",
-        "imagen": "https://picsum.photos/id/1045/800/400"
+        "titulo": "Batalla Naval",
+        "descripcion": "Batalla Naval Online para 1 jugador local o 2 jugadores remotos",
+        "imagen": "https://fathergeek.com/wp-content/uploads/2014/02/walktheplank_feat.jpg",
+        "repo": "https://github.com/nicochiove/BattleShip"
       },
       {
         "id": 402,
-        "titulo": "Web Música",
-        "descripcion": "Blog de conciertos",
-        "imagen": "https://picsum.photos/id/1046/800/400"
+        "titulo": "TGIF",
+        "descripcion": "Análisis de datos Congreso EE.UU.",
+        "imagen": "/assets/img/tgif.png",
+        "repo": "https://github.com/nicochiove/US-congress-project"
       },
       {
         "id": 403,
-        "titulo": "Portfolio",
-        "descripcion": "Proyectos musicales",
-        "imagen": "https://picsum.photos/id/1048/800/400"
+        "titulo": "NYSL WebApp",
+        "descripcion": "Web App para liga de fútbol infantil",
+        "imagen": "https://nysl-webapp-7b2f9.firebaseapp.com/images/nysl_logo.png",
+        "repo": "https://github.com/nicochiove/nysl_webapp"
       }
     ]
   },
