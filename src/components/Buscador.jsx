@@ -45,7 +45,7 @@ const Buscador = () => {
   const resultados = filtrar();
 
   return (
-    <div>
+    <div class="buscador">
       <h2>Buscador</h2>
 
       <input
@@ -55,7 +55,7 @@ const Buscador = () => {
         onChange={handleQueryChange}
       />
 
-      <div>
+      <div class="tipo-busqueda">
         <label>
           <input
             type="radio"
@@ -77,7 +77,7 @@ const Buscador = () => {
       </div>
 
       {tipoBusqueda === 'proyectos' && (
-        <div>
+        <div class="criterio-busqueda">
           <label>
             <input
               type="radio"
@@ -106,6 +106,7 @@ const Buscador = () => {
                 key={item.id}
                 nombre={item.nombre}
                 id={item.id}
+                descripcion={'none'}
               />
             }
             {tipoBusqueda === 'proyectos' && (

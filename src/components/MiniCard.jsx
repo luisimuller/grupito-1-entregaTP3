@@ -2,15 +2,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function MemberCard({nombre, id,descripcion}) {
+function MiniCard({nombre, id,descripcion}) {
 
-  return (
-    <Link to={`/integrante/${id}`}>
-        <div className="team-card">
-            <p>{nombre}:{descripcion}</p>
-        </div>
-    </Link>
-  );
+    if(descripcion === 'none'){
+    return (
+        <Link to={`/integrante/${id}`}>
+            <div className="team-card">
+                <p>{nombre}</p>
+            </div>
+        </Link>
+    );
+    }else{
+        return (
+            <div className="team-card">
+                <p>{nombre}:{descripcion}</p>
+            </div>
+        );
+    }
 }
 
-export default MemberCard;
+export default MiniCard;
