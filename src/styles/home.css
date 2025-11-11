@@ -143,10 +143,10 @@ h2 {
   margin-bottom: 30px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: 700;
+  -webkit-text-fill-color: var(--color-primary);
   position: relative;
 }
+
 
 h2::after {
   content: '';
