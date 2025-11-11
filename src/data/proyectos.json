@@ -6,21 +6,24 @@
     "proyectos": [
       {
         "id": 101,
-        "titulo": "App Física",
-        "descripcion": "Simulador de ondas",
-        "imagen": "https://picsum.photos/id/1015/800/400"
+        "titulo": "Blog de Café",
+        "descripcion": "Variedades sobre café",
+        "imagen": "/assets/img/trabajo-Schrodinger1.jpeg",
+        "repo": "https://bha-blogdecafe.netlify.app/"
       },
       {
         "id": 102,
-        "titulo": "Web Quantum",
-        "descripcion": "Blog de física",
-        "imagen": "https://picsum.photos/id/1016/800/400"
+        "titulo": "Free Market",
+        "descripcion": "Tienda online",
+        "imagen": "/assets/img/trabajo-Schrodinger2.png",
+        "repo": "https://freemarket-ayacucho-cepit.netlify.app/"
       },
       {
         "id": 103,
-        "titulo": "Portfolio",
-        "descripcion": "Muestra de proyectos",
-        "imagen": "https://picsum.photos/id/1018/800/400"
+        "titulo": "Age Calulator",
+        "descripcion": "Calculadora de edad",
+        "imagen": "/assets/img/trabajo-Schrodinger3.jpeg",
+        "repo": "https://bha-age-calculator-app.netlify.app/"
       }
     ]
   },

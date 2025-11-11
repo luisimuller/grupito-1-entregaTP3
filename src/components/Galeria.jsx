@@ -6,11 +6,12 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "../styles/galeria.css";
 
 const images = [
-  { src: "https://picsum.photos/id/1015/800/600" },
-  { src: "https://picsum.photos/id/1016/800/600" },
-  { src: "https://picsum.photos/id/1025/800/600" },
-  { src: "https://picsum.photos/id/1035/800/600" },
-  { src: "https://picsum.photos/id/1045/800/600" },
+  { src: "src/assets/img/wall1.avif" },
+  { src: "src/assets/img/wall2.avif" },
+  { src: "src/assets/img/wall3.jpg" },
+  { src: "src/assets/img/wall4.jpg" },
+  { src: "src/assets/img/wall5.jpg" },
+  { src: "src/assets/img/wall6.jpg" }
 ];
 
 function Galeria() {
@@ -19,7 +20,7 @@ function Galeria() {
 
   return (
     <div className="galeria-page">
-      <h1>Galería Interactiva</h1>
+      <h1>WallPepes</h1>
       <div className="gallery-grid">
         {images.map((img, i) => (
           <img

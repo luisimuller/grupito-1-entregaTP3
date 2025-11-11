@@ -144,9 +144,7 @@ h2 {
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: white;
-  background-clip: text;
-  font-weight: 700;
-  position: relative;
+position: relative;sition: relative;
 }
 
 h2::after {
