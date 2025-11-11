@@ -40,6 +40,7 @@ body {
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   z-index: 100;
 }
+
 .sidebar .logo {
   font-size: 1.8rem;
   margin-bottom: 30px;
