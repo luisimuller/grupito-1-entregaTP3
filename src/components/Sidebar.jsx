@@ -16,7 +16,7 @@ function Sidebar() {
             </li>
           ))}
           <li><Link to="/apionlypepes">API Only Pepes</Link></li>
-          <li><Link to="/galeria">Galería</Link></li>
+          <li><Link to="/galeria">WallPepes</Link></li>
         </ul>
       </nav>
     </aside>
