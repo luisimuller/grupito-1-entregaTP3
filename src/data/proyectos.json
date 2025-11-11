@@ -58,22 +58,25 @@
     "nombre": "Gregory Karta",
     "proyectos": [
       {
-        "id": 301,
-        "titulo": "App Web",
-        "descripcion": "Página de aprendizaje",
-        "imagen": "https://picsum.photos/id/1035/800/400"
+         "id": 101,
+        "titulo": "Lando Norris",
+        "descripcion": "Sitio web oficial del piloto británico de F1",
+        "imagen": "/assets/img/lando-norris.jpg",
+        "repo": "https://landonorris.com/"
       },
       {
-        "id": 302,
-        "titulo": "Blog Ciencia",
-        "descripcion": "Artículos y noticias",
-        "imagen": "https://picsum.photos/id/1036/800/400"
+        "id": 102,
+        "titulo": "VR46 Shop",
+        "descripcion": "Tienda oficial del equipo de Valentino Rossi",
+        "imagen": "/assets/img/vr46-shop.jpg",
+        "repo": "https://vr46.com/en-row"
       },
       {
-        "id": 303,
-        "titulo": "Portfolio",
-        "descripcion": "Proyectos personales",
-        "imagen": "https://picsum.photos/id/1038/800/400"
+        "id": 103,
+        "titulo": "Marc Márquez",
+        "descripcion": "Web oficial del piloto español de MotoGP",
+        "imagen": "/assets/img/marc-marquez.jpg",
+        "repo": "https://marcmarquez93.com/es_es/"
       }
     ]
   },
