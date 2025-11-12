@@ -34,21 +34,24 @@
     "proyectos": [
       {
         "id": 201,
-        "titulo": "App Redes",
-        "descripcion": "Control de routers",
-        "imagen": "https://picsum.photos/id/1025/800/400"
+        "titulo": "Halo Waypoint",
+        "descripcion": "Portal oficial del universo Halo",
+        "imagen": "/assets/img/halo.png",
+        "repo": "https://www.halowaypoint.com/"
       },
       {
         "id": 202,
-        "titulo": "Sistema Seguridad",
-        "descripcion": "Monitoreo de antivirus",
-        "imagen": "https://picsum.photos/id/1026/800/400"
+        "titulo": "EA Sports FC 25",
+        "descripcion": "Sitio oficial de EA Sports FC (anteriormente FIFA)",
+        "imagen": "/assets/img/fifa26.png",
+        "repo": "https://www.ea.com/games/ea-sports-fc/fc-25"
       },
       {
         "id": 203,
-        "titulo": "Portfolio",
-        "descripcion": "Proyectos de seguridad",
-        "imagen": "https://picsum.photos/id/1028/800/400"
+        "titulo": "World of Warships",
+        "descripcion": "Juego de batallas navales multijugador",
+        "imagen": "/assets/img/warship.png",
+        "repo": "https://worldofwarships.com/"
       }
     ]
   },
