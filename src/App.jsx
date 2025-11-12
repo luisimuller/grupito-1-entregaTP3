@@ -7,6 +7,7 @@ import Integrante from "./components/Integrante";
 import ApiOnlyPepes from "./components/ApiOnlyPepes";
 import Galeria from "./components/Galeria";
 import Carrusel from "./components/Carrusel";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./styles/index.css";
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/galeria" element={<Galeria />} />
             <Route path="/carrusel" element={<Carrusel />} />
           </Routes>
+          <Footer />
         </div>
       </div>
     </Router>

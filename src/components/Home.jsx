@@ -77,11 +77,6 @@ function Home() {
           <p>Puedes escribirnos a: <a href="mailto:contacto@nexthire.com">contacto@nexthire.com</a></p>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer className="site-footer">
-        <p>© 2025 Equipo NextHire Devs - Proyecto académico</p>
-      </footer>
     </div>
   );
 }
