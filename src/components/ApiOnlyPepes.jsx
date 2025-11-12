@@ -11,7 +11,7 @@ const ApiOnlyPepes = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await fetch('https://api.onlypepes.com/v2/pepe');
+            const response = await fetch('/api/v2/pepe');
             if (!response.ok) {
                 throw new Error('Error al obtener el Pepe');
             }

@@ -1,0 +1,115 @@
+/* Footer Styles */
+.site-footer {
+  background-color: var(--color1);
+  color: var(--color5);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: auto;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+/* Social Links Container */
+.social-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Social Icons Base */
+.social-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f3eae8;
+  color: #121816;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+}
+
+/* Hover Effects con transformación y color */
+.social-icon:hover {
+  transform: scale(1.4) rotate(15deg) translateY(-5px) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Colores específicos por red social */
+.social-icon.github:hover {
+  background-color: #24292e !important;
+  color: #ffffff !important;
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5 !important;
+  color: #ffffff !important;
+}
+
+.social-icon.twitter:hover {
+  background-color: #1da1f2 !important;
+  color: #ffffff !important;
+}
+
+.social-icon.instagram:hover {
+  background: linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%) !important;
+  color: #ffffff !important;
+}
+
+/* SVG dentro del icono */
+.social-icon svg {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  pointer-events: none;
+  fill: currentColor;
+}
+
+.social-icon:hover svg {
+  transform: scale(1.15) rotate(-15deg);
+}
+
+/* Efecto al hacer click */
+.social-icon:active {
+  transform: scale(1.1) !important;
+  transition: all 0.1s ease;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.social-icon {
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.social-icon:nth-child(1) { animation-delay: 0.1s; }
+.social-icon:nth-child(2) { animation-delay: 0.2s; }
+.social-icon:nth-child(3) { animation-delay: 0.3s; }
+.social-icon:nth-child(4) { animation-delay: 0.4s; }
