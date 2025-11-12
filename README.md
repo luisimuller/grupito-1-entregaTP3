@@ -478,33 +478,6 @@ npm run build
 
 ---
 
-## 👥 Contribuciones
-
-Este proyecto fue desarrollado colaborativamente por el **Grupo 1** del IFTS N°29:
-
-- **Hernán Burgos** - Perfil Erwin Schrödinger
-- **Nicolás Chiovetta** - Perfil Jack Smith
-- **Leonel Donnet** - Perfil Gregory Karta
-- **Adrián Leroy** - Perfil Carlos HardDrive + README + Documentación
-- **Luisina Müller** - Perfil Lola Sparrow
-
----
-
-## 📝 Licencia
-
-Este proyecto es parte de un trabajo práctico académico del **IFTS N°29** y está destinado únicamente para fines educativos.
-
----
-
-## 🔗 Enlaces
-
-- **Repositorio TP2:** [grupito-uno-front](https://github.com/luisimuller/grupito-uno-front)
-- **Repositorio TP3:** [grupito-1-entregaTP3](https://github.com/luisimuller/grupito-1-entregaTP3)
-- **Documentación React:** [https://react.dev/](https://react.dev/)
-- **Documentación Vite:** [https://vite.dev/](https://vite.dev/)
-
----
-
 **Desarrollado con ❤️ por el Grupo 1 - IFTS N°29**  
 *Front End - Trabajo Práctico 3*  
 *Noviembre 2025*
