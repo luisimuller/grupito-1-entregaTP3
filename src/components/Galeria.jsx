@@ -4,14 +4,20 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "../styles/galeria.css";
+import wall1 from "../assets/img/wall1.avif";
+import wall2 from "../assets/img/wall2.avif";
+import wall3 from "../assets/img/wall3.jpg";
+import wall4 from "../assets/img/wall4.jpg";
+import wall5 from "../assets/img/wall5.jpg";
+import wall6 from "../assets/img/wall6.jpg";
 
 const images = [
-  { src: "src/assets/img/wall1.avif" },
-  { src: "src/assets/img/wall2.avif" },
-  { src: "src/assets/img/wall3.jpg" },
-  { src: "src/assets/img/wall4.jpg" },
-  { src: "src/assets/img/wall5.jpg" },
-  { src: "src/assets/img/wall6.jpg" }
+  { src: wall1 },
+  { src: wall2 },
+  { src: wall3 },
+  { src: wall4 },
+  { src: wall5 },
+  { src: wall6 }
 ];
 
 function Galeria() {
