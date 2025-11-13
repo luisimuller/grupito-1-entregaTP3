@@ -143,7 +143,6 @@ h2 {
   margin-bottom: 30px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: var(--color-primary);
   position: relative;
 }
 
