@@ -143,10 +143,10 @@ h2 {
   margin-bottom: 30px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: 700;
+  -webkit-text-fill-color: var(--color-primary);
   position: relative;
 }
+
 
 h2::after {
   content: '';
@@ -415,7 +415,7 @@ h2::after {
 .site-footer {
   text-align: center;
   padding: 40px 20px;
-  background: var(--gradient-dark);
+  background: var(--color1) !important;
   color: var(--color-light);
   position: relative;
   overflow: hidden;
