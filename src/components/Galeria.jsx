@@ -6,12 +6,12 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "../styles/galeria.css";
 
 const images = [
-  { src: "src/assets/img/wall1.avif" },
-  { src: "src/assets/img/wall2.avif" },
-  { src: "src/assets/img/wall3.jpg" },
-  { src: "src/assets/img/wall4.jpg" },
-  { src: "src/assets/img/wall5.jpg" },
-  { src: "src/assets/img/wall6.jpg" }
+  { src: "public/assets/img/wall1.webp" },
+  { src: "public/assets/img/wall2.webp" },
+  { src: "public/assets/img/wall3.webp" },
+  { src: "public/assets/img/wall4.webp" },
+  { src: "public/assets/img/wall5.webp" },
+  { src: "public/assets/img/wall6.webp" }
 ];
 
 function Galeria() {
